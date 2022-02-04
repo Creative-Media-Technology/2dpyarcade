@@ -1,4 +1,9 @@
 ##First you need to install either Qjoypad for linux - see game design document or install Antimicro for pc
+
+##Raspberry pi also has an Antimicro port
+##Install using
+##   sudo apt-get -t buster-backports install antimicro
+
 ##Then you need to run either Qjoypad or Antimicro and configure your controller scheme for the controller you are using
 ##Then you can run this script to check that each of the controller bindings are working with this script before moving on to
 ##testing with a simple PygameZero Project
