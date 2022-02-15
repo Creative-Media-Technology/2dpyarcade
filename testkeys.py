@@ -11,6 +11,10 @@
 
 ##Pygame Zero Test Keys
 
+
+import pgzrun
+
+
 WIDTH = 800
 HEIGHT = 600
 
@@ -34,7 +38,7 @@ def on_key_down(key, mod, unicode):
     if (last_key_type == keys.Q and key == keys.Q):
         quit()
     last_key_type = key
-    last_key_press = unicode# Write your code here :-)
+    last_key_press = unicode
 
 def update():
     if keyboard.a:
@@ -45,3 +49,7 @@ def update():
         alien.y += -5
     if keyboard.s:
         alien.y += 5
+
+
+
+pgzrun.go()
